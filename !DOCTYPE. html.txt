@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MahaMaintain Pro | महा-मेंटेन प्रो</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    .hero-bg { 
+      background: linear-gradient(rgba(0,48,135,0.88), rgba(0,48,135,0.88)), 
+                  url('https://images.unsplash.com/photo-1545324418-cc1a3f2c4f5b?ixlib=rb-4.0.3&auto=format&fit=crop&q=80') center/cover; 
+    }
+    .nav-link { transition: all 0.3s; }
+    .nav-link:hover { color: #FF9933; transform: translateY(-2px); }
+  </style>
+</head>
+<body class="font-sans scroll-smooth">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <div class="flex items-center gap-3">
+        <img src="logo.png" alt="MahaMaintain Pro" class="h-14">
+        <span class="text-2xl font-bold text-blue-900">महा-मेंटेन प्रो</span>
+      </div>
+      <div class="hidden md:flex gap-8 text-gray-700 font-medium">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#how" class="nav-link">How it Works</a>
+        <a href="#pricing" class="nav-link">Pricing</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <a href="#contact" class="bg-orange-600 hover:bg-orange-700 text-white px-8 py-3 rounded-xl font-semibold">Free Demo</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section id="home" class="hero-bg text-white py-32">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <img src="logo.png" alt="MahaMaintain Pro" class="mx-auto h-80 md:h-96 mb-8 shadow-2xl">
+      <h1 class="text-5xl md:text-7xl font-bold leading-tight mb-6">
+        महा-मेंटेन प्रो
+      </h1>
+      <p class="text-3xl md:text-4xl mb-8">महाराष्ट्रातील सोसायटी देखभालीसाठी स्मार्ट निवड</p>
+      <p class="text-2xl mb-12">Automated Billing • Instant WhatsApp • Real-time Tracking</p>
+      <div class="flex flex-col sm:flex-row gap-6 justify-center">
+        <a href="#contact" class="bg-orange-600 hover:bg-orange-700 text-white text-xl font-semibold px-12 py-5 rounded-2xl">Free Demo Book करा</a>
+        <a href="#how" class="border-2 border-white hover:bg-white hover:text-blue-900 text-white text-xl font-semibold px-12 py-5 rounded-2xl">How it Works</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-12">Powerful Features</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl">
+          <i class="fas fa-users text-5xl text-orange-500 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-3">Member & Flat Management</h3>
+          <p class="text-gray-600">Complete ledger, owner/tenant details, parking, nominee records.</p>
+        </div>
+        <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl">
+          <i class="fas fa-whatsapp text-5xl text-green-500 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-3">Instant WhatsApp + Email Bills</h3>
+          <p class="text-gray-600">Automatic delivery with direct payment link.</p>
+        </div>
+        <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl">
+          <i class="fas fa-chart-bar text-5xl text-orange-500 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-3">Real-time Outstanding Tracking</h3>
+          <p class="text-gray-600">Defaulter list, aging analysis & auto reminders.</p>
+        </div>
+        <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl">
+          <i class="fas fa-calculator text-5xl text-orange-500 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-3">Auto Interest & Penalty</h3>
+          <p class="text-gray-600">Custom rules as per your society bye-laws.</p>
+        </div>
+        <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl">
+          <i class="fas fa-file-alt text-5xl text-orange-500 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-3">Custom Reports</h3>
+          <p class="text-gray-600">Audit-ready, AGM, Balance Sheet & more.</p>
+        </div>
+        <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl">
+          <i class="fas fa-shield-alt text-5xl text-green-500 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-3">MCS Act Compliant</h3>
+          <p class="text-gray-600">Fully compliant with Maharashtra rules.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section id="how" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-16">How It Works</h2>
+      <div class="grid md:grid-cols-4 gap-8">
+        <div class="text-center">
+          <div class="w-20 h-20 mx-auto bg-orange-100 rounded-3xl flex items-center justify-center text-4xl font-bold text-orange-600 mb-6">1</div>
+          <h3 class="font-semibold text-xl">Share Your Data</h3>
+          <p class="text-gray-600 mt-3">Send flat list & previous bills</p>
+        </div>
+        <div class="text-center">
+          <div class="w-20 h-20 mx-auto bg-orange-100 rounded-3xl flex items-center justify-center text-4xl font-bold text-orange-600 mb-6">2</div>
+          <h3 class="font-semibold text-xl">We Setup Everything</h3>
+          <p class="text-gray-600 mt-3">Import data & configure rules</p>
+        </div>
+        <div class="text-center">
+          <div class="w-20 h-20 mx-auto bg-orange-100 rounded-3xl flex items-center justify-center text-4xl font-bold text-orange-600 mb-6">3</div>
+          <h3 class="font-semibold text-xl">Auto Billing & Delivery</h3>
+          <p class="text-gray-600 mt-3">Monthly bills via WhatsApp & Email</p>
+        </div>
+        <div class="text-center">
+          <div class="w-20 h-20 mx-auto bg-orange-100 rounded-3xl flex items-center justify-center text-4xl font-bold text-orange-600 mb-6">4</div>
+          <h3 class="font-semibold text-xl">Track & Manage</h3>
+          <p class="text-gray-600 mt-3">Live dashboard & reports</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h2 class="text-4xl font-bold mb-4">Simple & Transparent Pricing</h2>
+      <div class="max-w-md mx-auto bg-white rounded-3xl shadow-2xl p-12">
+        <p class="text-7xl font-bold text-blue-900">₹25</p>
+        <p class="text-2xl text-gray-600">per flat / month</p>
+        <ul class="mt-10 space-y-5 text-left text-lg">
+          <li class="flex items-center gap-3"><i class="fas fa-check text-green-500"></i> Unlimited Bills & Reports</li>
+          <li class="flex items-center gap-3"><i class="fas fa-check text-green-500"></i> WhatsApp + Email Delivery</li>
+          <li class="flex items-center gap-3"><i class="fas fa-check text-green-500"></i> Real-time Dashboard</li>
+          <li class="flex items-center gap-3"><i class="fas fa-check text-green-500"></i> Full MCS Compliance</li>
+          <li class="flex items-center gap-3"><i class="fas fa-check text-green-500"></i> Dedicated Support</li>
+        </ul>
+        <a href="#contact" class="mt-12 block bg-orange-600 text-white py-6 rounded-2xl text-2xl font-semibold">Book Free Demo Now</a>
+        <p class="text-sm text-gray-500 mt-6">No Setup Fee • Cancel Anytime • 3 Months Satisfaction Guarantee</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-20 bg-blue-900 text-white">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-4xl font-bold text-center mb-6">Ready to Simplify Your Society?</h2>
+      <p class="text-center text-2xl mb-12">Book Your Free Demo Today (15 Minutes Only)</p>
+
+      <div class="grid md:grid-cols-2 gap-12">
+        <!-- Form -->
+        <form class="space-y-6 bg-white/10 backdrop-blur-md p-10 rounded-3xl">
+          <input type="text" placeholder="Society Name" class="w-full px-6 py-4 rounded-2xl bg-white text-black">
+          <input type="text" placeholder="Chairman / Secretary Name" class="w-full px-6 py-4 rounded-2xl bg-white text-black">
+          <input type="tel" placeholder="Mobile Number" class="w-full px-6 py-4 rounded-2xl bg-white text-black">
+          <button type="submit" class="w-full bg-orange-600 hover:bg-orange-700 py-5 rounded-2xl text-2xl font-semibold">Book Free Demo</button>
+        </form>
+
+        <!-- Address -->
+        <div class="bg-white/10 backdrop-blur-md p-10 rounded-3xl">
+          <h3 class="text-2xl font-semibold mb-6">Our Office</h3>
+          <p class="text-lg leading-relaxed">
+            C6/304, Ram Anand CHS,<br>
+            Ramdev Park, Near Shri Ram Mandir,<br>
+            Mira Road East,<br>
+            Thane, Maharashtra 401107
+          </p>
+          <div class="mt-8 space-y-4">
+            <p><i class="fas fa-phone mr-3"></i> +91 81692 89760</p>
+            <p><i class="fas fa-whatsapp mr-3"></i> +91 81692 89760</p>
+            <p><i class="fas fa-envelope mr-3"></i> Mahamaintaincepro@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-12">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <img src="logo.png" alt="MahaMaintain Pro" class="h-20 mx-auto mb-6">
+      <p class="text-xl">Maharashtra’s Smart Choice for Society Maintenance</p>
+      <p class="mt-6 text-sm text-gray-400">
+        C6/304, Ram Anand CHS, Ramdev Park, Near Shri Ram Mandir,<br>
+        Mira Road East, Thane 401107<br>
+        📱 +91 81692 89760 | ✉️ Mahamaintaincepro@gmail.com
+      </p>
+      <p class="mt-8 text-sm text-gray-500">© 2026 MahaMaintain Pro • All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+</html>

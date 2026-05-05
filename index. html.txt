@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Features - MahaMaintain Pro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="font-sans">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html" class="flex items-center gap-3">
+        <img src="logo.png" alt="MahaMaintain Pro" class="h-12">
+      </a>
+      <div class="hidden md:flex gap-8 text-gray-700 font-medium">
+        <a href="features.html" class="text-orange-600 font-bold">Features</a>
+        <a href="pricing.html" class="hover:text-orange-600">Pricing</a>
+        <a href="how-it-works.html" class="hover:text-orange-600">How it Works</a>
+        <a href="contact.html" class="hover:text-orange-600">Contact</a>
+      </div>
+      <a href="contact.html" class="bg-orange-600 hover:bg-orange-700 text-white px-6 py-3 rounded-xl font-semibold">Free Demo</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="bg-blue-900 text-white py-20">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <h1 class="text-5xl font-bold mb-4">Powerful Features</h1>
+      <p class="text-2xl">Everything your society needs in one smart platform</p>
+    </div>
+  </section>
+
+  <section class="py-20 bg-gray-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid md:grid-cols-2 gap-10">
+        <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl transition">
+          <i class="fas fa-users text-5xl text-orange-500 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-3">Member & Flat-wise Management</h3>
+          <p class="text-gray-600">Complete ledger for every flat, owner/tenant details, parking, nominee records and full payment history.</p>
+        </div>
+        <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl transition">
+          <i class="fas fa-whatsapp text-5xl text-green-500 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-3">Instant WhatsApp + Email Bills</h3>
+          <p class="text-gray-600">Automatic bill delivery with one-click payment link. No printing, no manual distribution.</p>
+        </div>
+        <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl transition">
+          <i class="fas fa-chart-bar text-5xl text-orange-500 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-3">Real-time Outstanding & Receipt Tracking</h3>
+          <p class="text-gray-600">Live dashboard, defaulter list, aging analysis and auto bank reconciliation.</p>
+        </div>
+        <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl transition">
+          <i class="fas fa-calculator text-5xl text-orange-500 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-3">Automatic Interest & Penalty</h3>
+          <p class="text-gray-600">Customizable as per your society bye-laws and MCS Act.</p>
+        </div>
+        <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl transition">
+          <i class="fas fa-file-alt text-5xl text-orange-500 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-3">Custom Audit-Ready Reports</h3>
+          <p class="text-gray-600">Balance Sheet, Income & Expenditure, AGM reports, defaulter reports – one click export.</p>
+        </div>
+        <div class="bg-white p-8 rounded-3xl shadow hover:shadow-xl transition">
+          <i class="fas fa-shield-alt text-5xl text-green-500 mb-6"></i>
+          <h3 class="text-2xl font-semibold mb-3">100% MCS Act Compliant</h3>
+          <p class="text-gray-600">Full support for audits, Form A/B/I, sinking fund, repair fund & statutory requirements.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-white py-12 text-center">
+    <img src="logo.png" alt="Logo" class="mx-auto h-16 mb-4 opacity-80">
+    <p class="text-xl">Maharashtra’s Smart Choice for Society Maintenance</p>
+    <p class="mt-6 text-sm text-gray-400">© 2026 MahaMaintain Pro • All Rights Reserved</p>
+  </footer>
+</body>
+</html>
